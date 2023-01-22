@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap")
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+.body 
+{
+	background: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container
+{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	background: white;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 1.0);
+
+}
+.container .left_side_design
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background: grey;
+}
+
+.profileText
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(0, 0, 0, 1.0);
+	background: blue;
+}
+.profileText .imgBx
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profileText .imgBx img
+{
+	position: absolute;
+	top: 100;
+	left: 10;
+	width: 100%;
+	height: 140%;
+	object-fit: cover;
+}
+
+.profileText h2
+{
+	color: white;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 1.5em;
+}
+
+.profileText h2 span
+{
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+.contactInfo
+{
+	background-color: gray;
+	padding: 20px;
+}
+
+.title
+{
+	color: black;
+	text-transform: uppercase;
+	font-size: 600;
+	letter-spacing: 1px;
+}
+
+.contactInfo ul
+{
+	position: relative;
+	color: black;
+}
+
+.contactInfo ul li 
+{
+	position: relative;
+	cursor: pointer;
+	color: black;
+	list-style: none;
+	margin-left: -30px;
+}
+
+.contactInfo ul li .icon
+{
+	display: inline-block;
+	color: black;
+	font-size: 15px;
+	width: 30px;
+}
+
+.contactInfo .education li
+{
+	margin-bottom: 15px;
+}
+
+.contactInfo .education h4
+{
+	color: white;
+	font-weight: 300;
+}
+
+.language .percent
+{
+	position: relative;
+	width: 100%;
+	height: 5px;
+	background: lightgrey;
+	display: block;
+	margin: 5px;
+}
+
+.language li {
+	list-style: none;
+}
+
+.language .percent div
+{
+	height: 100%;
+	background-color: blue;
+}
+
+
+.container .right_side_design
+{
+	position: relative;
+	padding: 40px;
+}
+
+.education a {
+	display: block;
+	padding: 5px;
+}
